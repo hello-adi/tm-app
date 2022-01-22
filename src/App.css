@@ -1,0 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans&family=Poppins:wght@500&family=Quicksand:wght@600&family=Rancho&family=The+Nautigal:wght@700&display=swap");
+body {
+  background-color: rgb(24, 26, 32) !important;
+  font-family: "Noto Sans", sans-serif !important;
+}

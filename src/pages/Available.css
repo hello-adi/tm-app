@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap");
+
+.home-row {
+  justify-content: space-between;
+}
+.arrow-btn {
+  background-color: transparent !important;
+  border: none !important ;
+  box-shadow: none !important;
+  font-size: 70px !important;
+  color: cadetblue !important;
+  transition: 0.2s all linear !important;
+}
+.arrow-btn:hover {
+  transform: scale(1.5);
+}
+.chart-container {
+  margin-top: 15%;
+}
+.canvas-container {
+  background-color: cadetblue !important;
+}
+.usd-input {
+  box-shadow: none !important;
+  background-color: rgb(83, 137, 139) !important;
+  /* 79a6fe 7099ec */
+  border: none !important;
+  color: black !important;
+  /* text-transform: uppercase; */
+}
+.usd-input::placeholder {
+  color: black !important;
+}
+.input-body {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.btn-container {
+  position: fixed;
+  bottom: 20px;
+  margin: 0 auto !important;
+  width: 340px !important;
+}
+.btn-container button {
+  width: 100% !important;
+  /* text-transform: uppercase; */
+}
+
+#basic-addon2 {
+  font-family: "Dongle", sans-serif;
+  font-size: 30px;
+}
