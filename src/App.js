@@ -4,7 +4,8 @@ import Preview from './pages/preview'
 import Pools from './pages/Table'
 import Portfolio from './pages/Portfolio'
 import Available from './pages/Available'
-import Login from './pages/Login'
+import { BrowserRoute as Router } from "react-router-dom"
+// import Login from './pages/Login'
 
 import { Routes, Route, Link } from "react-router-dom";
 import { useState } from 'react';
