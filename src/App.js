@@ -13,12 +13,12 @@ function App() {
   return (
     <div className="App">
          <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/available" element={<Available />} />
         <Route path="/portfolio" element={<Portfolio data={current} setData={setCurrent} />} />
         <Route path="/pools"  element={<Pools data={current} setData={setCurrent} />} />
         <Route path="/preview-page" element={<Preview />} />
-        <Route path="/" element={<Login />} /> 
+        {/* <Route path="/" element={<Login />} />  */}
         {/* home path change */}
       </Routes>
     </div>
